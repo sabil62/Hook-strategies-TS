@@ -1,4 +1,5 @@
-import { useAddNewServiceTypeAPI } from "@/hooks/api/applicantType";
+// import { useAddNewServiceTypeAPI } from "@/hooks/api/applicantType";
+import { useAddNewServiceTypeAPI } from "../../hooks/api/applicantType";
 import { useAddServiceForm } from "./useAddServiceForm";
 
 export const useAddService = (props: {

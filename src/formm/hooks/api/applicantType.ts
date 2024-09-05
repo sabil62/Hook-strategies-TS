@@ -1,4 +1,4 @@
-import { addNewServiceAPI } from "@/data/api/applicantType";
+// import { addNewServiceAPI } from "@/data/api/applicantType";
 import {
   ServiceAPIpayload,
   ServiceAPIresponse,
@@ -8,6 +8,7 @@ import { handleError } from "@/utils/parser/errorParser";
 import { useMutation, UseMutationOptions } from "@tanstack/react-query";
 import { AxiosError } from "axios";
 import { toast } from "sonner";
+import { addNewServiceAPI } from "../../data/api/appointmentType";
 
 export const useAddNewServiceTypeAPI = (
   options?: UseMutationOptions<
